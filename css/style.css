@@ -187,3 +187,37 @@ main {
     box-shadow: 1px 1px 2px rgba(37, 37, 37, 0.15), -1px -1px 2px rgba(37, 37, 37, 0.15);
     cursor: pointer;
 }
+
+
+
+@media (max-width: 1200px) {
+    .navLinks {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .more-text {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        -ms-column-count: 1;
+        -o-column-count: 1;
+        column-count: 1;
+    }
+    .experience {
+        width: 100%;
+    }
+    .expChild {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 50px 0;
+    }
+    .highlight-content {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        padding: 0px 20px;
+    }
+}
