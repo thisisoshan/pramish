@@ -1,0 +1,27 @@
+.honors {
+  width: 100%;
+  height: auto;
+  background: #e3e3e3;
+  padding: 40px 20px;
+  text-align: center;
+}
+.certs {
+  width: 90%;
+  height: 70%;
+  margin: 5.5% auto;
+}
+.wrap {
+  height: 100%;
+  width: 100%;
+}
+.cert-i {
+  height: 100px;
+  width: 100px;
+  margin: 30px;
+  display: inline-block;
+}
+.cert-i i {
+  height: 100%;
+  width: 100%;
+  font-size: 7rem;
+}
